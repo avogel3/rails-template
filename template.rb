@@ -2,7 +2,7 @@ gem 'devise'
 gem 'haml-rails'
 
 gem_group :development, :test do
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'faker'
   gem 'pry'
   gem 'rspec-rails'
