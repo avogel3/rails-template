@@ -8,12 +8,12 @@ Takes some of the configuration out of building a rails app. It only includes th
 * Sets up RSpec as the test framework
 * Runs bundle install
 * Runs db:create and db:migrate
-* Finally, adds the initial commit.
+* Finally, adds a commit for the template generator
 
 #### Usage
 
 ```bash
-rails new APP_NAME -m ~/template.rb --database=postgresql
+rails new APP_NAME -m ~/template.rb
 ```
 
 ###### Andrew Vogel
