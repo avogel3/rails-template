@@ -1,23 +1,18 @@
-gem 'haml-rails'
 gem 'devise'
-
-gem_group :test do
-  gem 'simplecov'
-end
+gem 'haml-rails'
 
 gem_group :development, :test do
-  gem 'rspec-rails'
-  gem 'faker'
   gem 'factory_girl_rails'
+  gem 'faker'
   gem 'pry'
-  gem 'capybara'
+  gem 'rspec-rails'
 end
 
 gem_group :development do
-  gem 'spring-commands-rspec' # Speed up Tests in development
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'hirb'
+  gem 'spring-commands-rspec'
 end
 
 run 'bundle install'
