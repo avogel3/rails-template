@@ -15,7 +15,7 @@ gem_group :development do
 end
 
 run 'bundle install'
-rails_command('db:create')
+rails_command 'db:create'
 
 run 'rails g rspec:install'
 
@@ -24,7 +24,7 @@ run 'rails g devise:install'
 environment "config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }", env: 'development'
 run 'rails g devise User'
 
-rails_command('db:migrate')
+rails_command 'db:migrate'
 
 git add: '.'
 git commit: "-m 'Generate project with template - github.com/avogel3/rails-template'"
