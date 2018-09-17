@@ -2,6 +2,7 @@ gem 'devise'
 gem 'haml-rails'
 
 gem_group :development, :test do
+  gem 'dotenv-rails'
   gem 'factory_bot_rails'
   gem 'pry'
   gem 'rspec-rails'
