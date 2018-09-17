@@ -1,5 +1,6 @@
 gem 'devise'
 gem 'haml-rails'
+gem 'rubocop', require: false
 
 gem_group :development, :test do
   gem 'dotenv-rails'
