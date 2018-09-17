@@ -1,6 +1,6 @@
-### Rails App Template
+### The Rails Template by avogel3
 
-#### Usage
+#### How do I use this?
 
 ```bash
 rails new APP_NAME -m https://raw.githubusercontent.com/avogel3/rails-template/master/template.rb
