@@ -10,6 +10,7 @@ rails new APP_NAME -m https://raw.githubusercontent.com/avogel3/rails-template/m
 
 * Set up Devise for authorization and add the devise model `User`
 * Set up RSpec as the test framework
+* Changes the views from erb to haml
 * Runs `bundle install`
 * Creates and migrates the database
 * Adds a commit for the template generator

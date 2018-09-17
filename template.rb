@@ -30,5 +30,7 @@ rails_command 'db:migrate'
 
 run 'touch .env.example'
 
+run 'HAML_RAILS_DELETE_ERB=true rake haml:erb2haml'
+
 git add: '.'
 git commit: "-m 'Generate project with template - github.com/avogel3/rails-template'"
