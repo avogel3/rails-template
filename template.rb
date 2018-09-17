@@ -18,6 +18,7 @@ end
 run 'bundle install'
 rails_command 'db:create'
 
+# Install rspec
 run 'rails g rspec:install'
 
 # Install devise and create User
@@ -26,6 +27,8 @@ environment "config.action_mailer.default_url_options = { host: 'localhost', por
 run 'rails g devise User'
 
 rails_command 'db:migrate'
+
+run 'touch .env.example'
 
 git add: '.'
 git commit: "-m 'Generate project with template - github.com/avogel3/rails-template'"
